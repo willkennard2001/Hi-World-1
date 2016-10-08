@@ -52,16 +52,16 @@ a {
     .btn + .btn {
       margin-top: 1rem;
       margin-left: 0; } }
-
+/*changedthe colorand the background*/
 .page-header {
-  color: #818181;
+  color: #000;
   text-align: center;
-  background-color: #ff9900;
-  background-image: linear-gradient(120deg, #155799, #159957); }
-
-@media screen and (min-width: 64em) {
+  background-color: #f90;
+  background-image: linear-gradient(120deg, #f00f #f90); }
+/*edit background image*/ 
+ {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: 5rem 6rem; } 
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
