@@ -57,11 +57,12 @@ a {
   color: #000;
   text-align: center;
   background-color: #f90;
-  background-image: url(https://albertmoyerjr.files.wordpress.com/2013/05/189_1bacon_cheese_burger.jpg);
-/*edit background image*/ 
- {
+  background-image: url(https://albertmoyerjr.files.wordpress.com/2013/05/189_1bacon_cheese_burger.jpg); }
+    /*edit background image*/ 
+ 
+  @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } 
+    padding: 5rem 6rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
